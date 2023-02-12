@@ -16,6 +16,6 @@ export const Sidebar = ({className}: NavbarProps) => {
             
             </div>
 
-        </div>
+        </div> 
     );
 };
