@@ -11,7 +11,7 @@ interface LangSwitcherProps {
 export const LangSwitcher = ({className}: LangSwitcherProps) => {
     const {t, i18n} = useTranslation();
     return <Button
-        className={classNames(s.LangSwitcher, {}, [className])}
+        className={classNames('s.LangSwitcher', {}, [className])}
         theme={ThemeButton.CLEAR}
         onClick={() => i18n.changeLanguage(i18n.language === 'ru' ? 'en' : 'ru')}>
         {t('Язык')}
