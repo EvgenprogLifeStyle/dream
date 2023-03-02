@@ -13,6 +13,9 @@
     "lint:scss": "npx stylelint \"**/*.scss\"",
     "lint:scss:fix": "npx stylelint \"**/*.scss\" --fix"
   },
+  "ts-standard": {
+    "project": "./tsconfig.json"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

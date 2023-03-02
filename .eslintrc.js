@@ -36,7 +36,9 @@ module.exports = {
         'import/no-extraneous-dependencies': 'off',
         'no-underscore-dangle': 'off',
         'react/button-has-type': 'off',
-        'i18next/no-literal-string': ['error', { markupOnly: true }],
+        // 'i18next/no-literal-string': ['error', { markupOnly: true }],
+        'eslint linebreak-style': ['error', 'windows'],
+        'i18next/no-literal-string': 'off',
     },
     globals: {
         __IS__DEV__: true,
