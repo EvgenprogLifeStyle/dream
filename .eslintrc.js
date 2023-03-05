@@ -2,6 +2,8 @@ module.exports = {
     env: {
         browser: true,
         es2021: true,
+        jest: true,
+        // jasmine: true,
     },
     extends: [
         'plugin:react/recommended',
@@ -39,6 +41,9 @@ module.exports = {
         // 'i18next/no-literal-string': ['error', { markupOnly: true }],
         'eslint linebreak-style': ['error', 'windows'],
         'i18next/no-literal-string': 'off',
+        'max-len': ['error', { ignoreComments: true, code: 100 }],
+        // 'linebreak-style': ['error', (process.platform === 'win32' ? 'windows' : 'unix')],
+
     },
     globals: {
         __IS__DEV__: true,
